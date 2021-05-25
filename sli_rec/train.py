@@ -61,8 +61,8 @@ def train(train_file = "data/train_data", test_file = "data/test_data", save_pat
                           
                     if test_auc > best_auc:
                         best_auc = test_auc
-                        model.save(sess, best_model_path)
-                        print "Model saved in {0}".format(best_model_path)
+                        # model.save(sess, best_model_path)
+                        # print "Model saved in {0}".format(best_model_path)
                     
                     train_loss_sum = 0.0
                     train_accuracy_sum = 0.0
